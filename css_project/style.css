@@ -1,0 +1,568 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: red;
+} */
+.co{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg");
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    
+}
+/* header  */
+header .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+   
+}
+header .header .left{
+    width: 20%;
+}
+header .header .left h1{
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 10px 10px 10px 20% ;
+    color: whitesmoke;
+
+}
+header .header .right{
+    width: 60%;
+}
+header .header .right ul{
+    list-style: none;
+    margin-top: 37px;
+    text-align: end;
+
+}
+header .header .right ul li{
+    display: inline;
+    margin: 9px;
+
+}
+header .header .right ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+/* section1  */
+.section1{
+    position: relative;
+}
+
+.section1 .main{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    color: whitesmoke;
+    z-index: 1;
+}
+.section1 .main h1{
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1%;
+}
+.section1 .main h4{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.section1 .main button{
+    font-size: 20px;
+    margin: 20px;
+    background-color:transparent;
+    color: whitesmoke;
+    padding: 13px 20px;
+    border: 1px solid whitesmoke;
+}
+/* .section2  */
+
+.section2 .what h1{
+    font-size: 40px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.section2 .text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: unset;
+    margin-bottom: 20px;
+}
+.section2 .text .Integer{
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px 30px;
+    margin:0px 50px;
+}
+.section2 .text .Integer .container{
+    box-shadow: 10px 10px 5px rgb(244, 243, 240);
+    text-align: center;
+}
+.section2 .text .Integer .container i{
+    font-size: 60px;
+    margin-top: 30px;
+
+}
+.section2 .text .Integer .container h1{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.section2 .text .Integer .container p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .6;
+
+}
+.section2 .text .img2{
+    width: 49%;
+    margin:0px 150px 0px 0px;
+
+
+}
+.section2 .text .img2 img{
+    height: 700px;
+    width: 90%;
+
+}
+/* section3 */
+
+.section3 .year{
+    position: relative;
+    color: white;
+}
+.section3 .img3 img{
+    height: 400px;
+    width: 100%;
+}
+.section3 .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: unset;
+
+}
+.section3 .text .left{
+    width: 49%;
+    margin: 100PX 0PX 0PX 100PX ;
+}
+.section3 .text .left h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 .text .left p{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px 50px 25px 0px ;
+    text-align: left;
+    line-height: 35px;
+}
+.section3 .text .left h4{
+    font-size: 50px;
+    color: #da9d40;
+}
+.section3 .text .left h4 em{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: white;
+}
+.section3 .text .right{
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px 0px;
+    margin: 100px 0px 0px 0px;
+}
+.section3 .text .right .happy h6{
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 .text .right .happy h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+.section3 .text .right .happy i{
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+
+}
+/* section4  */
+.section4 .upper{
+    text-align: center;
+}
+.section4 .upper h1{
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  opacity: .6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section4 .lower .main {
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+}
+.section4 .lower .main .left {
+   
+    width: 49%;
+    margin:20px 20px 20px 50px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(244, 243, 240);
+
+}
+.section4 .lower .left h5 , .section4 .lower .right h5{
+   
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 50px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.section4 .lower .left h5 i,.section4 .lower .right h5 i{
+   
+    font-size: 40px;
+    color: #da9d40;
+    margin-right: 10px;
+}
+
+
+.section4 .lower .main .right {
+   
+    width: 49%;
+    /* box-shadow: 5px 5px 5px red; */
+    margin:20px 20px 20px 0px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(244, 243, 240);
+
+}
+.section4 .lower .left  .text,.section4 .lower .right  .text{
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+
+}
+.section4 .lower .left  .text .img1,.section4 .lower .right  .text .img1{
+    width: 40%;
+
+}
+.section4 .lower .left  .text .img1 img,.section4 .lower .right  .text .img1 img{
+    border-radius: 50%;
+    height: 120px;
+    margin: 10px 50px;
+
+}
+.section4 .lower .left  .text .carl,.section4 .lower .right  .text .carl{
+    width: 40%;
+
+}
+.section4 .lower .left  .text .carl h4,.section4 .lower .right  .text .carl h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #da9d40;
+    margin: 30px 0px 0px 0px ;
+
+}
+.section4 .lower .left  .text .carl p,.section4 .lower .right  .text .carl p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    opacity: .6;
+    margin-top: 5px;
+
+   
+
+}
+
+
+/* section5 */
+.section5 .contact{
+    position: relative;
+}
+.section5 .img5 {
+    height: 400px;
+    width: 100%;
+}
+.section5 .img5 img {
+    filter: brightness(70%);
+
+}
+.section5 .text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-direction: unset;
+    text-align: center;
+}
+.section5 .text h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 60px;
+}
+.section5 .text p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 70px  ;
+    color: #707579;
+    line-height: 35px;
+}
+.section5 .text button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 13px 20px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    background-color:  #da9d40;
+    color: white;
+
+}
+
+/* section6 */
+.section6{
+    height: 300px;
+    color: #323648;
+}
+.section6 h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0px 0px 0px;
+}
+.section6 .letter{
+    display: flex;
+  flex-direction: unset;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 50px;
+}
+.section6 .letter .duis{
+    width: 49%;
+}
+.section6 .letter .duis p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+}
+.section6 .letter .email{
+    width: 49%;
+   margin: 30px 0px 0px 0px;
+    
+   
+}
+.section6 .letter .email input{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-bottom: 2px solid black;
+    width:0px;
+}
+.section6 .letter .email button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #da9d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+
+}
+/* section7  */
+.section7{
+    color: rgb(255,255,255);
+    background-color: black;
+  }
+  .section7 .touch {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    
+  }
+  .section7 .left{
+    width: 30%;
+     margin-left: 60px;
+  }
+  .section7 .left h1{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0px 0px 20px;
+  }
+  .section7 .right{
+    width: 70%;
+    margin-right: 80px;
+    opacity: .5;
+
+    
+  }
+  .section7 .right .face{
+    text-align:right;
+  }
+  .section7 .right .face i{
+    padding-top: 30px;
+    margin: 0px 15px;
+    font-size: 22px;
+
+  }
+  .section7 .right .header ul{
+    list-style: none;
+    text-align: end;
+    padding-top: 15px;
+
+
+  }
+  .section7 .right .header li{
+    display: inline;
+  }
+  .section7 .right .header li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(255,255,255);
+    font-weight: 500;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 300;
+
+  }
+  .section7 h6{
+ font-size: 15px;
+ font-weight: 100;
+ margin: 20px 0px;
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ opacity: .5;
+ padding-bottom: 20px;
+
+  }
+
+
+  /* About us  */
+
+.coa{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner1.jpg");
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+}
+
+/* section */
+.home{  
+    height: 50px;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.home ul {
+display: flex;
+margin-left: 200px;
+padding: 10px;
+}
+.home ul li {
+list-style-type: none;
+padding: 3px;
+color: #707579;
+}
+.home ul li a{
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+color: #da9d40;
+}
+
+/* section2  */
+.a-section1{
+    margin-top: 100px;
+    margin-left: 200px;  
+    margin-right: 200px;
+}
+.a-section1 .text{
+    
+
+    display: flex;
+/* font-size: 15px; */
+}
+.a-section1 .text .container{
+   width: 49%;
+   margin-right: 35px;
+}
+.a-section1 .text .container h1{
+    /* border: 1px solid blue; */
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(52, 51, 51);
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.a-section1 .text .container h2{
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: rgb(52, 51, 51);
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.a-section1 .text .container p{    
+    font-size: 15px;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: sors;
+    color: #707579;
+    word-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+   
+}
+
+.a-section1 .text .img2{
+    width:49%;
+    /* padding-left: 10px; */
+}
+.a-section1 .text .img2 img{
+    height: 350px;
+    width: 100%;
+    /* height: auto; */
+}
+.section3 .backImg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://p.w3layouts.com/demos_new/template_demo/05-06-2019/commute_demo_Free/1199547472/web/images/banner2.jpg");
+    width: 100%;
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section3 .get {
+    position: absolute;
+    color: #fff;
+}
